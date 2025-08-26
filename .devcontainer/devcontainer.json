@@ -1,0 +1,14 @@
+{
+	"name": "Odin",
+	"build": { "dockerfile": "Dockerfile" },
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"DanielGavin.ols"
+			],
+			"settings": {
+				"ols.server.path": "/ols/ols"
+			}
+		}
+	}
+}
